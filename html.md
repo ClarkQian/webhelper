@@ -90,13 +90,19 @@
 - table
 
   ```html
-  <table>
+  <table border="1">
       <tr>
       	<td></td>
           <td></td>
           <td></td>
       </tr>
   </table>
+  colspan/rowspan
   ```
 
-  
+- label
+
+  ```html
+  <label for="username">content</label>
+  <input id="username" type="text" name="user"/>
+  ```
